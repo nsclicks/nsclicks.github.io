@@ -599,10 +599,11 @@ body:after {
     font-size: 3rem; }
   .site-blocks-cover .img-face {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 1350px;
-    height: 700px;
+     left: 50%;
+    top: 70%; 
+     width: 100%;
+    height: auto;
+    
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
