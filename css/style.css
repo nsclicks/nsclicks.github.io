@@ -600,7 +600,7 @@ body:after {
   .site-blocks-cover .img-face {
     position: absolute;
      left: 50%;
-    top: 70%; 
+    top: 60%; 
      width: 100%;
     height: auto;
     
@@ -608,11 +608,14 @@ body:after {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 1; }
-    @media (max-width: 991.98px) {
+
+    @media (min-width: 991.98px) {
       .site-blocks-cover .img-face {
-        -webkit-transform: translate(-70%, -50%);
-        -ms-transform: translate(-70%, -50%);
-        transform: translate(-70%, -50%); } }
+        -webkit-transform: translate(-50%, -40%);
+        -ms-transform: translate(-50%, -40%);
+        transform: translate(-50%, -40%); 
+      
+      } }
 
 .section-title {
   position: relative; }
