@@ -600,7 +600,7 @@ body:after {
   .site-blocks-cover .img-face {
     position: absolute;
      left: 50%;
-    top: 60%; 
+    top: 45%; 
      width: 100%;
     height: auto;
     
@@ -864,7 +864,8 @@ body:after {
 .footer {
   font-size: .9rem; }
   .footer .footer-title {
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 1.7em;
     margin-bottom: 10px; }
   .footer ul li {
     margin-bottom: 10px; }
